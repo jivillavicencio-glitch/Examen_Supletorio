@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    
+}
+ h2 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 25px;
+    font-size: 2em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+h4 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+h5 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 25px;
+    font-size: 1em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+li {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1px;
+}
+
+p1 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1px;
+}
+
+p2 {
+    text-align: center;
+    color: rgb(22, 19, 19);
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1px;
+}
+image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pelicula {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pelicula:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.avengers img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    image-rendering: auto;
+    border-radius: 10px;
+}
+
+.granturismo img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    image-rendering: auto;
+    border-radius: 10px;
+}
+
+.F1 img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    image-rendering: auto;
+    border-radius: 10px;
+}
+
+.robert img {
+    width: 0%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    image-rendering: auto;
+    border-radius: 50%;
+}
+
+.pelicula .info {
+    padding: 15px;
+}
+.pelicula .info h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.pelicula .info p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+
